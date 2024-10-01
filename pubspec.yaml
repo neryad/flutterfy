@@ -1,7 +1,7 @@
 name: flutterfy
 description: A tool to automatically manage version updates in pubspec.yaml.
-version: 1.0.0+1
-# repository: https://github.com/my_org/my_repo
+version: 1.0.1+1727741864
+repository: https://github.com/neryad/flutterfy
 
 environment:
   sdk: ^3.4.3
@@ -13,5 +13,13 @@ dependencies:
 dev_dependencies:
   lints: ^3.0.0
   test: ^1.24.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
 executables:
-  pubspec_version_manager: lib/flutterfy.dart
+  pubspec_version_manager: flutterfy.dart
