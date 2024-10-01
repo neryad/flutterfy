@@ -22,4 +22,4 @@ platforms:
   web:
   windows:
 executables:
-  pubspec_version_manager: flutterfy.dart
+  flutterfy: flutterfy.dart
