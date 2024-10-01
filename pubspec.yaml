@@ -22,4 +22,4 @@ platforms:
   web:
   windows:
 executables:
-  flutterfy: flutterfy.dart
+  flutterfy: flutterfy
