@@ -1,19 +1,63 @@
+# name: flutterfy
+# description: A tool to automatically manage version updates in pubspec.yaml.
+# version: 1.0.1+1727741864
+# repository: https://github.com/neryad/flutterfy
+
+# environment:
+#   sdk: ^3.4.3
+
+# # Add regular dependencies here.
+# dependencies:
+#   # path: ^1.8.0
+
+# dev_dependencies:
+#   lints: ^3.0.0
+#   test: ^1.24.0
+
+# platforms:
+#   android:
+#   ios:
+#   linux:
+#   macos:
+#   web:
+#   windows:
+# executables:
+#   flutterfy: flutterfy
 name: flutterfy
-description: A tool to automatically manage version updates in pubspec.yaml.
-version: 1.0.1+1727741864
+description: A powerful command-line tool for Flutter and Dart projects to automatically manage semantic version updates in pubspec.yaml files. Supports patch, minor, and major version increments with intelligent build number handling.
+version: 1.0.1+1727741865
 repository: https://github.com/neryad/flutterfy
+homepage: https://github.com/neryad/flutterfy
+issue_tracker: https://github.com/neryad/flutterfy/issues
+documentation: https://github.com/neryad/flutterfy#readme
 
+# Funding information (opcional)
+funding:
+  - https://ko-fi.com/neryad
+
+# Temas/categorías para pub.dev
+topics:
+  - versioning
+  - flutter
+  - dart
+  - automation
+  - devtools
+  - cli
+  - pubspec
+
+# SDK constraints más específicos
 environment:
-  sdk: ^3.4.3
+  sdk: ">=3.0.0 <4.0.0"
 
-# Add regular dependencies here.
+# Dependencias principales
 dependencies:
-  # path: ^1.8.0
+  path: ^1.8.3 # Para manejo de rutas de archivos
 
 dev_dependencies:
   lints: ^3.0.0
-  test: ^1.24.0
+  test: ^1.25.0
 
+# Especificar plataformas soportadas con más detalle
 platforms:
   android:
   ios:
@@ -21,5 +65,10 @@ platforms:
   macos:
   web:
   windows:
+
+# Configuración de executable
 executables:
   flutterfy: flutterfy
+
+# Configuración adicional para pub.dev
+publish_to: "https://pub.dev" # Explícito para claridad
