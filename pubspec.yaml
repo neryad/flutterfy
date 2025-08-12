@@ -42,8 +42,6 @@ topics:
   - dart
   - automation
   - devtools
-  - cli
-  - pubspec
 
 # SDK constraints más específicos
 environment:
