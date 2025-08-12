@@ -1,4 +1,3 @@
-import 'dart:developer';
 import 'dart:io';
 
 /// Improved script for updating versions in pubspec.yaml
