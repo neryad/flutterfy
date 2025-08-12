@@ -69,6 +69,3 @@ platforms:
 # Configuración de executable
 executables:
   flutterfy: flutterfy
-
-# Configuración adicional para pub.dev
-publish_to: "https://pub.dev" # Explícito para claridad
