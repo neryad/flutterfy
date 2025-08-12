@@ -25,7 +25,7 @@
 #   flutterfy: flutterfy
 name: flutterfy
 description: A powerful command-line tool for Flutter and Dart projects to automatically manage semantic version updates in pubspec.yaml files. Supports patch, minor, and major version increments with intelligent build number handling.
-version: 1.2.1+1727741864
+version: 1.1.1+1727741864
 repository: https://github.com/neryad/flutterfy
 homepage: https://github.com/neryad/flutterfy
 issue_tracker: https://github.com/neryad/flutterfy/issues
